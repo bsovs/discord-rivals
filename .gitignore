@@ -1,5 +1,5 @@
 # Config Files
-./config.json
+./secrets/
 
 # Logs
 logs
