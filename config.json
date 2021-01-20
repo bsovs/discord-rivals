@@ -1,4 +1,5 @@
 {
+	"APP_URL": "https://discordrivals.herokuapp.com/",
 	"prefix": "!",
 	"flags_strict": false
 }

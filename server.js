@@ -5,6 +5,7 @@ const database = require("./src/database");
 const httpRouter = require('./src/express_api/httpRouter');
 const {ErrorHandler} = require("./src/bot/errors/errorHandler");
 const {Bot} = require('./src/bot/bot');
+const {APP_URL} = require('./config.json');
 
 global.URL = isLocal ? `http://localhost:${PORT}` : APP_URL;
 
